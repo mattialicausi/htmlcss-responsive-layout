@@ -4,7 +4,32 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'PT Sans', sans-serif;
+    background-color: var(--white);
+}
 
+.container{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* CREO FLEX E VARIANTI DA ASSEGNARE IN SEGUITO */
+.d-flex{
+    display: flex;
+}
+
+.jcontent-between{
+    justify-content: space-between;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.debug{
+    border: 1px solid black;
+}
 /* PALETTE COLORI */
 :root{
    --black: #000;
@@ -14,4 +39,57 @@
    --bg-color: #0081FD;
    --text-violet: #0084FD;
    --color-icon: #9792E4;
+}
+
+/* MODIFICO PROPRIETA GENERALI */
+.bg-color-violet{
+    background-color: var(--bg-color);
+}
+
+/* MODIFICO HEADER */
+header{
+    background-color: var(--text-violet);
+    color: var(--white);
+    padding: 1rem 2rem;
+}
+
+#d-none{
+    display: none;
+}
+
+#logo-header{
+    font-size: 2rem;
+}
+
+/* MODIFICO SEZIONE 1 */
+.container-cards
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MODIFICO FOOTER */
+footer{
+    background-color: var(--light-black);
+}
+
+.link{
+    color: #0081FD;
+    text-decoration: underline;
+}
+
+footer p{
+    color: var(--white);
+    padding: 1rem 0;
+    text-align: center;
 }
