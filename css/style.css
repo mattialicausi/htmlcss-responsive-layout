@@ -19,8 +19,17 @@ body{
     display: flex;
 }
 
+.d-flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
 .jcontent-between{
     justify-content: space-between;
+}
+
+.jcontent-center{
+    justify-content: center;
 }
 
 .align-center{
@@ -39,6 +48,7 @@ body{
    --bg-color: #0081FD;
    --text-violet: #0084FD;
    --color-icon: #9792E4;
+   --color-bg-1: rgb(188, 221, 252);
 }
 
 /* MODIFICO PROPRIETA GENERALI */
@@ -50,7 +60,10 @@ body{
 header{
     background-color: var(--text-violet);
     color: var(--white);
+    margin-bottom: 1.5rem;
     padding: 1rem 2rem;
+    position: sticky;
+    top:0;
 }
 
 #d-none{
@@ -61,8 +74,47 @@ header{
     font-size: 2rem;
 }
 
+
+
 /* MODIFICO SEZIONE 1 */
-.container-cards
+.card{
+    background-color: var(--color-bg-1);
+    margin: 1rem;
+    padding: 3rem;
+    border-radius: 0.75rem;
+    text-align: center;
+}
+
+h4{
+    font-size: 1.5rem;
+}
+
+.card-1-right img{
+    width: 100%;
+}
+
+.icon{
+    font-size: 3rem;
+}
+
+.card h3, .icon, h4{
+    color: var(--text-violet);
+    margin-bottom: 2.5rem;
+}
+
+.btn{
+    background-color: var(--bg-color);
+    color: var(--white);
+    font-size: 1.5rem;
+    padding: 0.90rem;
+    border-radius: 1rem;
+    margin-top: 1.5rem;
+
+}
+
+.card p{
+    font-size: 1.2rem;
+}
 
 
 
