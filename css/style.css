@@ -1,0 +1,17 @@
+/* UTILITY */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* PALETTE COLORI */
+:root{
+   --black: #000;
+   --white: #fff;
+   --light-black: #333333;
+   --orange: #FDC15F;
+   --bg-color: #0081FD;
+   --text-violet: #0084FD;
+   --color-icon: #9792E4;
+}
