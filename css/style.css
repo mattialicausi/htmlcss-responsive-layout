@@ -12,6 +12,7 @@ body{
 .container{
     max-width: 600px;
     margin: 0 auto;
+
 }
 
 /* CREO FLEX E VARIANTI DA ASSEGNARE IN SEGUITO */
@@ -340,3 +341,31 @@ footer p{
     text-align: center;
 
 }
+
+/* MEDIA QUERIES PER TABLET  992px*/
+@media screen and (min-width: 992px){
+    .container{
+        max-width: 950px;
+        
+
+    }
+    .container-cards{
+        display: flex;
+        flex-flow: row wrap;
+        margin-left: -0.75rem;
+        margin-right: -0.75rem;
+    }
+    .card{
+        margin-left: 0.75rem;
+        margin-right: 0.75rem;
+        width: calc(33,33% - 1.5rem);
+        
+    }
+    .card-1-left{
+        width: calc(66,66% -1.5rem);
+    }
+
+}
+
+/* MEDIA QUERIES PER DESKTOP A 1200PX */
+
