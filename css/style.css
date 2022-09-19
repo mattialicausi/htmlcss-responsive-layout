@@ -68,6 +68,7 @@ header{
     padding: 1rem 2rem;
     position: sticky;
     top:0;
+    z-index: 1000;
 }
 
 #d-none{
@@ -217,7 +218,7 @@ h4{
 .title-4{
     color: var(--white);
     font-size: 2rem;
-    margin-top: 2rem;
+    margin: 2rem 0;
 }
 
 .subtitle-4, .description-4{
@@ -255,15 +256,18 @@ h4{
 
 .p-5{
     padding: 0.75rem;
-    line-height: 1.5rem;
+    line-height: 2rem;
 }
 
-.title-5, .p-5{
+.title-5{
     text-align: center;
 }
 
 .container-5 img{
     margin-top: 2rem;
+}
+.img-circle img{
+    position: relative;
 }
 
 .btn-5{
@@ -274,6 +278,10 @@ max-width: 13rem;
 .apice{
     color: var(--color-icon);
     font-size: 3rem;
+    position: absolute;
+    top: 50;
+    right: 50;
+    z-index: 50;
 }
 
 /* SEZIONE 6 */
@@ -315,19 +323,6 @@ max-width: 13rem;
 .diritti{
     margin-bottom: 2rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* MODIFICO FOOTER */
 footer{
