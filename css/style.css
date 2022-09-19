@@ -231,7 +231,7 @@ h4{
     line-height: 2rem;
 }
 
-.btn-4{
+.btn-4, .btn-5, .btn-6{
     background-color: var(--color-icon);
     color: var(--white);
     font-size: 1.5rem;
@@ -241,6 +241,82 @@ h4{
     margin-bottom: 1rem;
     max-width: 10rem;
     text-align: center;
+}
+
+/* SEZIONE 5 */
+
+.title-5, .subimg-5{
+    font-size: 2rem;
+    color: var(--color-icon);
+}
+
+.p-5{
+    padding: 0.75rem;
+    line-height: 1.5rem;
+}
+
+.title-5, .p-5{
+    text-align: center;
+}
+
+.container-5 img{
+    margin-top: 2rem;
+}
+
+.btn-5{
+font-size: 1rem;
+max-width: 13rem;
+}
+
+.relative{
+    position: relative;
+}
+
+.apice{
+    color: var(--color-icon);
+    font-size: 3rem;
+    position: absolute;
+    top: 5;
+    right: 5;
+}
+
+/* SEZIONE 6 */
+
+.start{
+    color: rgb(213, 213, 241);
+}
+
+.subtitle-6, .p-6, .diritti{
+    color: var(--white);
+}
+
+.subtitle-6{
+    font-size: 2rem;
+}
+
+.p-6, .diritti{
+    font-size: 1.2rem;
+}
+
+.title-6{
+    color: var(--orange);
+    font-size: 3rem;
+}
+
+.subtitle-6, .p-6{
+    padding: 2rem 0;
+}
+
+.btn-6{
+    background-color: var(--white);
+    color: var(--color-icon);
+    padding: 0.50rem;
+    font-size: 1rem;
+    width: 14rem;
+}
+
+.diritti{
+    margin-bottom: 2rem;
 }
 
 
@@ -268,6 +344,7 @@ footer{
 
 footer p{
     color: var(--white);
-    padding: 1rem 0;
+    padding: 2rem 0;
     text-align: center;
+
 }
