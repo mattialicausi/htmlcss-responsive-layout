@@ -169,9 +169,8 @@ h4{
 }
 
 .img-circle img{
-    height: 25rem;
-    width: 25rem;
-    background-size: cover;
+    height: 20rem;
+    width: 20rem;
     border-radius: 50%;
 }
 .testimonianza{
