@@ -53,7 +53,7 @@ body{
 
 /* MODIFICO PROPRIETA GENERALI */
 .bg-color-violet{
-    background-color: var(--bg-color);
+    background-color: var(--color-icon);
 }
 
 /* MODIFICO HEADER */
@@ -89,7 +89,7 @@ h4{
     font-size: 1.5rem;
 }
 
-.card-1-right img{
+ img{
     width: 100%;
 }
 
@@ -116,6 +116,88 @@ h4{
     font-size: 1.2rem;
 }
 
+/* SEZIONE 2 */
+.left-2, .right-2{
+    margin: 1rem;
+    padding: 4rem;
+    border-radius: 0.75rem;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.left-2, .left-2 h4{
+    color: var(--white);
+}
+.right-2{
+    background-color: var(--white);
+}
+
+.right-2 h5{
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+.right-2 p{
+    margin: 1.5rem 0;
+    line-height: 3rem;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.btn-2{
+    background-color: var(--color-icon);
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+    align-items: center;
+    
+}
+
+/* SEZIONE 3 */
+.card-2-2{
+    background-color: var(--color-icon);
+    margin: 1rem;
+    padding: 3rem;
+    border-radius: 0.75rem;
+    text-align: center;
+}
+
+.img-circle img{
+    height: 25rem;
+    width: 25rem;
+    background-size: cover;
+    border-radius: 50%;
+}
+.testimonianza{
+    color: var(--white);
+    line-height: 2rem;
+}
+
+.card-1-2, .card-2-2{
+    text-align: center;
+}
+
+.titolo3{
+    margin: 2rem 0;
+    font-size: 2rem;
+}
+
+.card-1-2 h2{
+    line-height: 2rem;
+    font-size: 1.7rem;
+    color: var(--color-icon);
+
+}
+
+.card-1-2 p{
+    line-height: 2rem;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+}
+
+.name{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
 
 
 
