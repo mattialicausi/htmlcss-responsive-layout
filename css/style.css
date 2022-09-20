@@ -443,8 +443,16 @@ footer p{
         right: 50px;
     }
 
+    /* SEZIONE 6 */
 
-
+    .btn-6{
+        background-color: var(--white);
+        color: var(--color-icon);
+        padding: 1.3rem;
+        font-size: 1.5rem;
+        width: 18rem;
+        border-radius: 1.5rem;
+    }
 }
 
 /* MEDIA QUERIES PER DESKTOP A 1200PX */
@@ -487,6 +495,32 @@ footer p{
         text-align: center;
     }
 
+    /* SEZIONE 1 */
+
+    .left-1, .card-1-right{
+        width: 50%;
+    }
+
+    .container-1-1200px{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+    }
+
+    .card-1-right img{
+        width: 100%;
+    }
+
+    .btn{
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .card-1-left{
+        text-align: start;
+    }
+
+
 
     /* SEZIONE 2 */
      .left-2, .container-right-2{
@@ -518,9 +552,7 @@ footer p{
         right:20%;
        
     }
-    .left-2{
-        justify-content: flex-start;
-    }
+
 
 
 
