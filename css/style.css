@@ -164,17 +164,18 @@ h4{
 /* SEZIONE 3 */
 .card-2-2{
     background-color: var(--color-icon);
-    padding: 3rem;
+    padding: 2rem;
     border-radius: 1rem;
     text-align: center;
     margin-bottom: 2rem;
 }
 
-.img-circle img{
-    height: 20rem;
-    width: 20rem;
+.img-3{
+    height: 300px;
+    width: 300px;
     border-radius: 50%;
 }
+
 .testimonianza{
     color: var(--white);
     line-height: 2rem;
@@ -397,17 +398,17 @@ footer p{
     .container-sect2 img, .container-right-2{
         width: 76%;
     }
-    
+
 
     /* SEZIONE 3 */
     .container-sect2 img{
-        width: 60%;
+        width: 50%;
     }
 
     .testimonianza{
-        width: 70%;
-        padding-left: 6rem;
-        padding-right: 6rem;
+        width: 50%;
+        padding-left: 3rem;
+        padding-right: 3rem;
     }
     .card-2-2{
         display: flex;
