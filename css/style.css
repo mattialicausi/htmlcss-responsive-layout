@@ -357,8 +357,6 @@ footer p{
 @media screen and (min-width: 992px){
     .container{
         max-width: 950px;
-        
-
     }
     .container-cards{
         display: flex;
@@ -367,14 +365,28 @@ footer p{
         margin-right: -0.75rem;
     }
     .card{
+        width: calc(33.33% - 1.5rem);
         margin-left: 0.75rem;
         margin-right: 0.75rem;
-        width: calc(33,33% - 1.5rem);
         
     }
     .card-1-left{
-        width: calc(66,66% -1.5rem);
+        width: calc(66.66% - 1.5rem);
     }
+
+    .card-1-left .btn{
+        align-items: flex-start;
+        max-width: 13rem;
+    }
+
+    .card-1-right img{
+        width: 8rem;
+    }
+
+    .icon-space{
+        margin-top: 2rem;
+    }
+
 
     /* SEZIONE 3 */
     .img-circle{
