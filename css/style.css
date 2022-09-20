@@ -133,7 +133,7 @@ h4{
     font-size: 1.2rem;
 }
 
-.left-2, .left-2 h4{
+.left-2,  h4{
     color: var(--white);
 }
 .right-2{
@@ -147,7 +147,7 @@ h4{
 }
 .right-2 p{
     margin: 1.5rem 0;
-    line-height: 3rem;
+    line-height: 2rem;
     font-family: 'PT Sans', sans-serif;
 }
 
@@ -276,9 +276,7 @@ h4{
 .container-5 img{
     margin-top: 2rem;
 }
-.img-circle img{
-    position: relative;
-}
+
 
 .btn-5{
 font-size: 1rem;
@@ -289,9 +287,12 @@ max-width: 13rem;
     color: var(--color-icon);
     font-size: 3rem;
     position: absolute;
-    top: 50;
-    right: 50;
+    top: 0;
+    right: 0px;
     z-index: 50;
+}
+.img-apice{
+    position: relative;
 }
 
 /* SEZIONE 6 */
@@ -386,11 +387,16 @@ footer p{
         margin-top: 2rem;
     }
 
+    /* SEZIONE 3 */
+    .container-sect2 img{
+        width: 60%;
+    }
+
 
     /* SEZIONE 3 */
-    .img-circle{
+    /* .img-circle{
         width: 30%;
-    }
+    } */
     .testimonianza{
         width: 70%;
         padding-left: 6rem;
@@ -417,9 +423,7 @@ footer p{
     .right-5, .left-5{
         width: 50%;
     }
-    /* .left-5{
-        padding-right: 6rem;
-    } */
+
     .right-5{
         padding-left: 8rem;
     }
@@ -480,6 +484,24 @@ footer p{
         display: flex;
         flex-flow: row nowrap;
     }
+    .container-sect2{
+        position: relative;
+        padding-bottom: 13rem;
+    }
+
+    .container-sect2 img{
+        width: 80%;
+    }
+    .right-2{
+        position: absolute;
+        top: 60px;
+        right:0;
+       
+    }
+    .left-2{
+        justify-content: flex-start;
+    }
+
 
 
 
