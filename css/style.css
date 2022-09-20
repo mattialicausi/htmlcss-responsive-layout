@@ -496,7 +496,7 @@ footer p{
     .container-sect2{
         display: flex;
         flex-flow: row nowrap;
-        padding-bottom: 60px;
+        padding-bottom: 100px;
     }
     /* .container-sect2{
         position: relative;
@@ -509,13 +509,13 @@ footer p{
 
     .container-right-2{
         position: relative;
-        height: 100%;
+        height: 700px;
     }
 
     .right-2{
         position: absolute;
-        top: 0;
-        right:0;
+        top: 160px;
+        right:20%;
        
     }
     .left-2{
