@@ -287,13 +287,17 @@ max-width: 13rem;
     width: 300px;
     height: 300px;
     border-radius: 50%;
+    
+}
+.img-5{
     position: relative;
 }
-
 .apice{
     color: var(--color-icon);
     font-size: 3rem;
     position: absolute;
+    top: 70px;
+    right: 280px;
 }
 
 /* SEZIONE 6 */
@@ -433,6 +437,14 @@ footer p{
         flex-flow: row nowrap;
     }
 
+    .apice{
+        position: absolute;
+        top: 70px;
+        right: 50px;
+    }
+
+
+
 }
 
 /* MEDIA QUERIES PER DESKTOP A 1200PX */
@@ -484,6 +496,7 @@ footer p{
     .container-sect2{
         display: flex;
         flex-flow: row nowrap;
+        padding-bottom: 60px;
     }
     /* .container-sect2{
         position: relative;
@@ -493,12 +506,18 @@ footer p{
     .container-sect2 img, .container-right-2 .right-2{
         width: 80%;
     }
-    /* .right-2{
+
+    .container-right-2{
+        position: relative;
+        height: 100%;
+    }
+
+    .right-2{
         position: absolute;
-        top: 60px;
+        top: 0;
         right:0;
        
-    } */
+    }
     .left-2{
         justify-content: flex-start;
     }
@@ -513,5 +532,12 @@ footer p{
     /* SEZIONE 4 */
     .card-4{
         width: calc((100% - 2.25rem) / 3); 
+    }
+
+    /* SEZIONE 5 */
+    .apice{
+        position: absolute;
+        top: 70px;
+        right: 100px;
     }
 }
