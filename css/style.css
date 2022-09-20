@@ -105,7 +105,7 @@ h4{
     font-size: 3rem;
 }
 
-.card h3, .icon, h4{
+.card h3, .icon, .card-1-left h4{
     color: var(--text-violet);
     margin-bottom: 2.5rem;
 }
@@ -283,16 +283,17 @@ font-size: 1rem;
 max-width: 13rem;
 }
 
+.img-apice{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    position: relative;
+}
+
 .apice{
     color: var(--color-icon);
     font-size: 3rem;
     position: absolute;
-    top: 0;
-    right: 0px;
-    z-index: 50;
-}
-.img-apice{
-    position: relative;
 }
 
 /* SEZIONE 6 */
@@ -476,7 +477,7 @@ footer p{
 
 
     /* SEZIONE 2 */
-     .left-2, .right-2{
+     .left-2, .container-right-2{
         width: 50%;
     }
 
@@ -484,20 +485,20 @@ footer p{
         display: flex;
         flex-flow: row nowrap;
     }
-    .container-sect2{
+    /* .container-sect2{
         position: relative;
         padding-bottom: 13rem;
-    }
+    } */
 
-    .container-sect2 img{
+    .container-sect2 img, .container-right-2 .right-2{
         width: 80%;
     }
-    .right-2{
+    /* .right-2{
         position: absolute;
         top: 60px;
         right:0;
        
-    }
+    } */
     .left-2{
         justify-content: flex-start;
     }
