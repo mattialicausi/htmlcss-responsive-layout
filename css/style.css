@@ -402,6 +402,21 @@ footer p{
         margin-right: 0.75rem;
     }
 
+    /* SEZIONE 5 */
+    .right-2, .left-5{
+        width: 50%;
+    }
+    /* .left-5{
+        padding-right: 6rem;
+    } */
+    .right-5{
+        padding-left: 8rem;
+    }
+    .container-5-992px{
+        display: flex;
+        flex-flow: row nowrap;
+    }
+
 }
 
 /* MEDIA QUERIES PER DESKTOP A 1200PX */
