@@ -436,8 +436,60 @@ footer p{
 
 @media screen and (min-width: 1200px){
     .container{
-        max-width: 1200px;
+        max-width: 1100px;
     }
+    .fa-bars{
+        opacity: 0;
+    }
+
+    /* NAV BAR */
+    #d-none{
+        display: inline-block;
+    }
+
+    #d-none ul li:not(:last-child){
+        list-style: none;
+        color: var(--white);
+        padding-right: 1rem;
+       padding-top: 0.5rem;
+    }
+
+    #d-none ul li:last-child{
+        list-style: none;
+    }
+
+
+    #d-none ul{
+        display: flex;
+        flex-direction: row;
+    }
+    .btn-header{
+        background-color: var(--white);
+        color: black;
+        padding: 0.50rem;
+        border-radius: 1rem;
+        max-width: 10rem;
+        text-align: center;
+    }
+
+
+    /* SEZIONE 2 */
+    .left-2, .container-right-2{
+        width: 50%;
+    }
+
+    .right-2{
+        line-height: normal;
+        /* width: 60%; */
+        margin-left: 3rem;
+       min-width: 30rem;
+    }
+
+
+   
+
+
+
     /* SEZIONE 4 */
     .card-4{
         width: calc((100% - 2.25rem) / 3); 
