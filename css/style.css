@@ -358,6 +358,7 @@ footer p{
     .container{
         max-width: 950px;
     }
+    /* SEZIONE 1 */
     .container-cards{
         display: flex;
         flex-flow: row wrap;
@@ -433,3 +434,12 @@ footer p{
 
 /* MEDIA QUERIES PER DESKTOP A 1200PX */
 
+@media screen and (min-width: 1200px){
+    .container{
+        max-width: 1200px;
+    }
+    /* SEZIONE 4 */
+    .card-4{
+        width: calc((100% - 2.25rem) / 3); 
+    }
+}
