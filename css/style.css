@@ -392,16 +392,18 @@ footer p{
         margin-top: 2rem;
     }
 
+    /* SEZIONE 2*/
+
+    .container-sect2 img, .container-right-2{
+        width: 76%;
+    }
+    
+
     /* SEZIONE 3 */
     .container-sect2 img{
         width: 60%;
     }
 
-
-    /* SEZIONE 3 */
-    /* .img-circle{
-        width: 30%;
-    } */
     .testimonianza{
         width: 70%;
         padding-left: 6rem;
@@ -509,6 +511,12 @@ footer p{
 
     .card-1-right img{
         width: 100%;
+       margin-top: 100px;
+    }
+
+    .card-1-right{
+        margin-bottom: 0;
+        padding-bottom: 0;
     }
 
     .btn{
@@ -548,7 +556,7 @@ footer p{
 
     .right-2{
         position: absolute;
-        top: 160px;
+        top: 180px;
         right:20%;
        
     }
