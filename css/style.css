@@ -230,6 +230,7 @@ h4{
     color: var(--white);
     font-size: 2rem;
     margin: 2rem 0;
+    text-align: center;
 }
 
 .subtitle-4, .description-4{
@@ -375,7 +376,7 @@ footer p{
         width: calc(66,66% -1.5rem);
     }
 
-    /* SEZIONE 2 */
+    /* SEZIONE 3 */
     .img-circle{
         width: 30%;
     }
@@ -389,6 +390,18 @@ footer p{
         flex-wrap: nowrap;
         align-items: center;
     }
+
+    /* SEZIONE 4 */
+    .container-4{
+        display: flex;
+        flex-flow: row wrap;
+        margin-right: -0.75rem;
+    }
+    .card-4{
+        width: calc((100% - 1.5rem) / 2); 
+        margin-right: 0.75rem;
+    }
+
 }
 
 /* MEDIA QUERIES PER DESKTOP A 1200PX */
